@@ -12,7 +12,15 @@ import {CardComponent} from './component/card/card.component' ;
 import {CardRowComponent} from './component/card-row/card-row.component' ;
 import {MovementComponent} from './component/movement/movement.component' ;
 import { NgChartsModule } from 'ng2-charts';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { UserComponent } from './users/users.component';
+import { ProductsComponent } from './products/products.component';
+import { CartComponent } from './cart/cart.component';
+import { MarketComponent } from './market/market.component';
+import { ProfileComponent } from './profile/profile.component';
+import { EdituserComponent } from './edituser/edituser.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +31,24 @@ import { NgChartsModule } from 'ng2-charts';
     FooterComponent,
     CardComponent,
     CardRowComponent,
-    MovementComponent
+    MovementComponent,
+    LoginComponent,
+    RegisterComponent,
+    UserComponent,
+    ProductsComponent,
+    CartComponent,
+    MarketComponent,
+    ProfileComponent,
+    MarketComponent,
+    CartComponent,
+    EdituserComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NgChartsModule
+    NgChartsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

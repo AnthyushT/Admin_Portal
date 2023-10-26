@@ -1,4 +1,4 @@
-import { Component, Input, Output} from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,6 +6,6 @@ import { Component, Input, Output} from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
-  public isCollapsed = true ;
-  @Input() isFlag! : boolean ;
+  public isCollapsed = true;
+  @Input() isFlag!: boolean;
 }
